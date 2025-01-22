@@ -3,7 +3,13 @@
 let amigos = [];
 
 function agregarAmigos() {
-    
+    if(document.getElementById("amigo").value === ""){
+        alert("Por favor, inserte un nombre");
+    } else{
+        amigos.push(document.getElementById("amigo").value);
+    }
+    document.getElementById("amigo").value = "";
+    console.log(amigos);
 }
 
 function actualizarListaAmigos() {
