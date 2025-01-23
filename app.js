@@ -25,6 +25,22 @@ function actualizarListaAmigos(listaAmigos) {
     return;
 }
 
-function sortearAmigos() {
+function sortearAmigo(listaAmigos) {
+    let lista = document.getElementById("resultado");
+
+    if(listaAmigos.length < 2){
+        alert("Necesitas minimo 2 amigos para hacer el sorteo.");
+        return;
+    }
     
+    lista.innerHTML = '';
+
+    let indiceGenerado = Math.floor(Math.random()*listaAmigos.length);
+    console.log(indiceGenerado);
+
+    let elementoLista = document.createElement("li");
+    let nodoTexto = document.createTextNode(`¡El amigo secreto es ${listaAmigos[indiceGenerado]}!`);
+    elementoLista.appendChild(nodoTexto);
+    lista.appendChild(elementoLista);
+    return;
 }
