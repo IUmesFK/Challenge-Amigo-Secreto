@@ -38,9 +38,9 @@
 
 - `Funcionalidad 2`: Actualizar la lista de amigos.
 
-<p>Como podrá notar en la imagen de abajo, lo que se logra con esta funcionalidad es mostrar en una lista los nombres ingresados por el usuario. Esto se consigue mediante el uso de un bucle `for`, que recorre cada elemento del arreglo `listaAmigos`. En cada iteración, se crea un nuevo elemento de lista (li = list item) y se agrega a la lista HTML correspondiente.</p>
+<p>Como podrá notar en la imagen de abajo, lo que se logra con esta funcionalidad es mostrar en una lista los nombres ingresados por el usuario. Esto se consigue mediante el uso de un bucle `for`, que recorre cada elemento del arreglo anteriormente creado. En cada iteración, se crea un nuevo elemento de lista (li = list item) y se agrega a la lista HTML correspondiente.</p>
 
-<p>Con esta funcionalidad, cada vez que se invoque a la función que recibe como parametro un arreglo de nombres, se actualizará la lista HTML con los nuevos amigos. Esto permite que la lista en la interfaz de usuario siempre refleje los cambios hechos en el arreglo de amigos.</p>
+<p>Con esta funcionalidad, cada vez que se invoque a la función, se actualizará la lista HTML con los nuevos amigos. Esto permite que la lista en la interfaz de usuario siempre refleje los cambios hechos en el arreglo de amigos.</p>
 
   ![Ejemplo 2da función](https://github.com/user-attachments/assets/a1eb1abb-09b5-4c6a-b5a1-1ebbd8e561ae)
 
