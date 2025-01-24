@@ -24,7 +24,7 @@ function actualizarListaAmigos() {
     return;
 }
 
-function sortearAmigo(s) {
+function sortearAmigo() {
     let lista = document.getElementById("resultado");
 
     if(amigos.length < 2){
