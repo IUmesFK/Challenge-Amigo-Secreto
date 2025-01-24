@@ -7,15 +7,21 @@
    <p align='left'>Desarrollo del challenge "Amigo secreto", el mismo consiste en ingresar nombres por medio de un campo para posteriormente sortearlos para determinar quien es el amigo secreto.</p>
 
 
-##Índice
-
-
-
 <h2>¿Como usar el programa?</h2>
 
 <br>
 
 <p>Puedes usar el programa haciendo click <a href='https://iumesfk.github.io/Challenge-Amigo-Secreto/' target='_blank'>aqui</a> o tambien descargar el archivo .zip haciendo click <a href='https://github.com/IUmesFK/Challenge-Amigo-Secreto/archive/refs/heads/main.zip'>aqui</a></p>
+
+<p>Si descargaste el archivo, debes descomprimirlo en la locación que desees, para ello debes hacer click derecho sobre el archivo descargado y seleccionar la opción 'Extraer aqui'.</p>
+
+![ejemplo extracción](https://github.com/user-attachments/assets/b600f3d9-90b0-41a3-9ce9-54933ca81d51)
+
+<p>Cuando lo extraigas, se creara una carpeta con el nombre 'Challenge-Amigo-Secreto-main', deberas abrir la carpeta y podras ver que hay varios archivos en ella, lo unico que deberas hacer es hacer doble click en el archivo con el nombre 'index'</p>
+
+![archivo index](https://github.com/user-attachments/assets/85036f70-b197-421b-b4e1-57644e5156e1)
+
+<p>¡Y listo! ya podras usar el programa tranquilamente.</p>
 
 <br>
 
@@ -49,5 +55,7 @@
 <br>
 
 <h2 align='center' >Vista completa del programa</h2>
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/fe3c0b23-a537-4333-8cb0-2cb9517385e1)
