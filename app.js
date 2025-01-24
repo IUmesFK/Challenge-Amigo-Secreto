@@ -9,37 +9,36 @@ function agregarAmigos() {
         amigos.push(document.getElementById("amigo").value);
     }
     document.getElementById("amigo").value = "";
-    console.log(amigos);
     return;
 }
 
-function actualizarListaAmigos(listaAmigos) {
+function actualizarListaAmigos() {
     let lista = document.getElementById("listaAmigos");
     lista.innerHTML = '';
-    for(let i = 0; i <= listaAmigos.length-1; i++){
+    for(let i = 0; i <= amigos.length-1; i++){
         let elementoLista = document.createElement("li");
-        let nodoDeTexto = document.createTextNode(listaAmigos[i]);
+        let nodoDeTexto = document.createTextNode(amigos[i]);
         elementoLista.appendChild(nodoDeTexto);
         lista.appendChild(elementoLista);
     }
     return;
 }
 
-function sortearAmigo(listaAmigos) {
+function sortearAmigo(s) {
     let lista = document.getElementById("resultado");
 
-    if(listaAmigos.length < 2){
+    if(amigos.length < 2){
         alert("Necesitas minimo 2 amigos para hacer el sorteo.");
         return;
     }
     
     lista.innerHTML = '';
 
-    let indiceGenerado = Math.floor(Math.random()*listaAmigos.length);
+    let indiceGenerado = Math.floor(Math.random()*amigos.length);
     console.log(indiceGenerado);
 
     let elementoLista = document.createElement("li");
-    let nodoTexto = document.createTextNode(`¡El amigo secreto es ${listaAmigos[indiceGenerado]}!`);
+    let nodoTexto = document.createTextNode(`¡El amigo secreto es ${amigos[indiceGenerado]}!`);
     elementoLista.appendChild(nodoTexto);
     lista.appendChild(elementoLista);
     return;
