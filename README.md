@@ -15,7 +15,7 @@
 
 <br>
 
-<p>Puedes usar el programa haciendo click <a href='https://iumesfk.github.io/Challenge-Amigo-Secreto/'>aqui</a></p>
+<p>Puedes usar el programa haciendo click <a href='https://iumesfk.github.io/Challenge-Amigo-Secreto/' target='_blank'>aqui</a> o tambien descargar el archivo .zip haciendo click <a href='https://github.com/IUmesFK/Challenge-Amigo-Secreto/archive/refs/heads/main.zip'>aqui</a></p>
 
 <br>
 
