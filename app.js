@@ -13,12 +13,12 @@ function agregarAmigos() {
     return;
 }
 
-function actualizarListaAmigos(listaAmigos) {
+function actualizarListaAmigos() {
     let lista = document.getElementById("listaAmigos");
     lista.innerHTML = '';
-    for(let i = 0; i <= listaAmigos.length-1; i++){
+    for(let i = 0; i <= amigos.length-1; i++){
         let elementoLista = document.createElement("li");
-        let nodoDeTexto = document.createTextNode(listaAmigos[i]);
+        let nodoDeTexto = document.createTextNode(amigos[i]);
         elementoLista.appendChild(nodoDeTexto);
         lista.appendChild(elementoLista);
     }
@@ -42,5 +42,7 @@ function sortearAmigo(listaAmigos) {
     let nodoTexto = document.createTextNode(`¡El amigo secreto es ${listaAmigos[indiceGenerado]}!`);
     elementoLista.appendChild(nodoTexto);
     lista.appendChild(elementoLista);
+    amigos = [];
+    actualizarListaAmigos(amigos);
     return;
 }
