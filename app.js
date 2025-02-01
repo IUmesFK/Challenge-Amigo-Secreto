@@ -41,5 +41,7 @@ function sortearAmigo() {
     let nodoTexto = document.createTextNode(`¡El amigo secreto es ${amigos[indiceGenerado]}!`);
     elementoLista.appendChild(nodoTexto);
     lista.appendChild(elementoLista);
+    amigos = [];
+    actualizarListaAmigos(amigos);
     return;
 }
